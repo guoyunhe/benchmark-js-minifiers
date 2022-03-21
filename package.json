@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "antd": "^4.19.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three.js": "^0.77.1"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.159",
+    "esbuild": "^0.14.27",
+    "esbuild-minifier-webpack-plugin": "^1.2.11",
+    "process": "^0.11.10",
+    "swc-webpack-plugin": "^1.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "esbuild": "time webpack -c webpack-esbuild.config.js",
+    "swc": "time webpack -c webpack-swc.config.js",
+    "terser": "time webpack -c webpack-terser.config.js"
+  }
+}

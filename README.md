@@ -1,0 +1,49 @@
+# Benchmark JavaScript Minifiers
+
+Compare performance of terser, esbuild and swc as minifiers
+
+## Sample Code
+
+antd + lodash + react + react-dom + three.js
+
+## Output Standard
+
+- Bundled into one JS file with webpack
+- IIFE format output
+- Minified without source maps
+
+## Test Devices
+
+### ThinkPad T480
+
+System information:
+
+- CPU: i7-8550U
+- RAM: 32 GB 2667 MHz DDR4
+- Node: 16.14.1
+- OS: openSUSE Tumbleweed Linux 5.16.14
+
+Benchmark results:
+
+1. esbuild: 0.249s
+2. swc: 1.082s
+3. terser: 5.347s
+
+### MacBook Pro 16 (2019)
+
+System information:
+
+- CPU: i7-9750H
+- RAM: 16 GB 2667 MHz DDR4
+- Node: 16.14.0
+- OS: macOS Monterey 12.2.1
+
+Benchmark results:
+
+1. esbuild: 4.181s
+2. swc: 5.471s
+3. terser: 19.099s
+
+## Summary
+
+Only based on my test, may be not true for your real-world projects.
