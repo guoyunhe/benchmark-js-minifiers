@@ -4,7 +4,7 @@ module.exports = {
   mode: "production",
   entry: "./sample.js",
   output: {
-    path: __dirname + "dist/swc",
+    path: __dirname + "/dist/swc",
   },
   optimization: {
     minimizer: [new SWCMinifyPlugin()],

@@ -4,7 +4,7 @@ module.exports = {
   mode: "production",
   entry: "./sample.js",
   output: {
-    path: __dirname + "dist/esbuild",
+    path: __dirname + "/dist/esbuild",
   },
   optimization: {
     minimizer: [new ESBuildMinifierWebpackPlugin()],
