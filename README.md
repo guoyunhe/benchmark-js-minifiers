@@ -28,6 +28,7 @@ Benchmark results:
 1. esbuild: 5.167s, 1.9MB
 2. swc: 6.527s, 3.1MB
 3. terser: 21.845s, 1.8MB
+4. no-minify: 3.980s, 4.7MB
 
 ### MacBook Pro 16 (2019)
 
@@ -43,6 +44,7 @@ Benchmark results:
 1. esbuild: 4.181s, 1.9MB
 2. swc: 5.471s, 3.1MB
 3. terser: 19.099s, 1.8MB
+4. no-minify: 3.980s, 4.7MB
 
 ## Summary
 

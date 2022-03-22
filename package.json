@@ -17,6 +17,7 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
+    "no-minify": "time webpack -c webpack-no-minify.config.js",
     "esbuild": "time webpack -c webpack-esbuild.config.js",
     "swc": "time webpack -c webpack-swc.config.js",
     "terser": "time webpack -c webpack-terser.config.js"
