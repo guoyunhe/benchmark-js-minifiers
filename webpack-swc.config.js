@@ -7,6 +7,7 @@ module.exports = {
     path: __dirname + "/dist/swc",
   },
   optimization: {
+    minimize: true,
     minimizer: [new SWCMinifyPlugin()],
   },
 };
