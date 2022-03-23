@@ -1,4 +1,4 @@
-const { SWCMinifyPlugin } = require("swc-webpack-plugin");
+const SwcMinifyWebpackPlugin = require("swc-minify-webpack-plugin");
 
 module.exports = {
   mode: "production",
@@ -7,6 +7,6 @@ module.exports = {
     path: __dirname + "/dist/swc",
   },
   optimization: {
-    minimizer: [new SWCMinifyPlugin()],
+    minimizer: [new SwcMinifyWebpackPlugin()],
   },
 };
