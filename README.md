@@ -6,6 +6,10 @@ Compare performance of terser, esbuild and swc as minifiers
 
 antd + lodash + react + react-dom + three.js
 
+## Integrations
+
+Use webpack + terser-webpack-plugin, which support terser, swc and esbuild minifier.
+
 ## Output Standard
 
 - Bundled into one JS file with webpack
