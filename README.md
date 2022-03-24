@@ -41,10 +41,10 @@ System information:
 
 Benchmark results:
 
-1. esbuild: 4.181s, 1.9MB
-2. swc: 6.867s, 1.9MB
-3. terser: 19.099s, 1.8MB
-4. no-minify: 3.980s, 4.7MB
+1. esbuild: 4.052s, 1.9MB
+2. swc: 6.892s, 1.9MB
+3. terser: 13.834s, 1.8MB
+4. no-minify: 3.556s, 4.7MB
 
 ## Summary
 
